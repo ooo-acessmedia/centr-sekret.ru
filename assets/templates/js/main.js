@@ -13,6 +13,18 @@
         loop: false
     });
 
+    // Слайдер сертификатов
+
+    var $sertificatesBlock = $('.sertificates-block');
+
+    $sertificatesBlock.owlCarousel({
+        items: 1,
+        nav: true,
+        navText: ['', ''],
+        loop: true,
+        mouseDrag: false
+    });
+
     // Fancybox
 
     $('.fancybox').fancybox();
@@ -131,5 +143,13 @@
     var $importantText = $('big');
 
     $importantText.insertBefore('.text-content-block');
+
+    // Скрываем сертификаты если они пустые
+
+    var sertificateSize = $sertificatesBlock.find('> div').size();
+
+    if (sertificateSize < 2) {
+        $('.courses-headblock .right').addClass('is-hidden');
+    }
 
 })(jQuery);

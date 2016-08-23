@@ -3042,6 +3042,126 @@ hr {
 .gallery-teaser-item .title {
   text-align: center;
 }
+.courses-pages {
+  font-family: 'PTSans-Regular', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+.courses-pages h1.title {
+  font-size: 28px;
+  color: white;
+  background: url("../img/couses-pages-title-bg.png") no-repeat;
+  background-size: 100% 100%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-left: -40px;
+  margin-top: -10px;
+  padding-left: 40px;
+  margin-bottom: 0;
+  font-family: 'PTSans-Regular', Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+.courses-pages .courses-headblock {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-top: -20px;
+  padding-bottom: 40px;
+}
+.courses-pages .courses-headblock > .left {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 345px;
+}
+.courses-pages .courses-headblock > .left .price {
+  font-size: 20px;
+  color: #4b7780;
+  padding-top: 15px;
+}
+.courses-pages .courses-headblock > .left .program {
+  font-size: 16px;
+  color: #333333;
+}
+.courses-pages .courses-headblock > .left .program ol,
+.courses-pages .courses-headblock > .left .program ul {
+  margin-top: 35px;
+  padding: 0;
+  list-style-position: inside;
+}
+.courses-pages .courses-headblock > .right {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  width: 310px;
+}
+.courses-pages .courses-headblock > .right .title {
+  font-size: 20px;
+  color: #4b7780;
+  text-align: center;
+}
+.courses-pages .courses-headblock > .right .content {
+  padding-top: 25px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+.courses-pages .courses-headblock > .right .content .sertificates-block {
+  width: 250px;
+}
+.courses-pages .courses-headblock > .right .content .sertificates-block .owl-prev {
+  position: absolute;
+  left: -30px;
+  top: 170px;
+  width: 16px;
+  height: 22px;
+  background: url("../img/sertificates-block-left-bg.png") no-repeat;
+}
+.courses-pages .courses-headblock > .right .content .sertificates-block .owl-next {
+  position: absolute;
+  right: -30px;
+  top: 170px;
+  width: 16px;
+  height: 22px;
+  background: url("../img/sertificates-block-right-bg.png") no-repeat;
+}
+.courses-pages .courses-schedule > .title {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.courses-pages .courses-schedule > .content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 15px 45px;
+  padding-bottom: 0;
+  background: url("../img/shedule-block-content-bg.png") no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid #95b427;
+}
+.courses-pages .courses-schedule > .content > div {
+  width: 50%;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333333;
+}
 /*Layout*/
 /*Modules*/
 .contacts {
@@ -3613,26 +3733,6 @@ hr {
 .courses-item.id-252 .item-more {
   top: 205px;
 }
-.courses-not-item {
-  width: 200px;
-  margin-bottom: 5px;
-  border: 1px solid #aeacac;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  min-height: 60px;
-  font-weight: bold;
-  background: white;
-  border-radius: 5px;
-  padding: 10px;
-}
 .partners-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3686,27 +3786,6 @@ hr {
 .special-output .courses-item .courses-dates > .title {
   font-size: 20px;
   text-align: center;
-}
-.special-output .specialist-item {
-  width: 100%;
-}
-.special-output .specialist-item a {
-  padding: 0;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-.special-output .specialist-item a > .image {
-  margin-right: 30px;
-}
-.special-output .specialist-item a > .block {
-  margin-top: 20px;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 .seminar-wrap {
   display: -webkit-flex;
@@ -4133,6 +4212,39 @@ hr {
 .specialist-sert-item {
   margin-bottom: 20px;
 }
+.courses-pages .specialists-block {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.courses-pages .specialist-item {
+  width: 45%;
+  text-align: left;
+}
+.courses-pages .specialist-item > a {
+  padding: 20px;
+  background: #737e80;
+}
+.courses-pages .specialist-item .image {
+  margin-bottom: 10px;
+}
+.courses-pages .specialist-item .title {
+  font-size: 20px;
+  color: white;
+  line-height: 20px;
+  height: auto;
+}
+.courses-pages .specialist-item .description {
+  font-size: 16px;
+  color: white;
+  line-height: 35px;
+}
 .active-wrap .active-items {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4173,6 +4285,34 @@ hr {
 }
 .title-block .title-active {
   margin-right: 20px;
+}
+.massages-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.massages-item {
+  background: url("../img/massages-item-bg.png") no-repeat;
+  width: 170px;
+  height: 96px;
+  background-size: 100% 100%;
+}
+.massages-item a {
+  display: block;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: white;
 }
 /*Modules*/
 /*States*/
