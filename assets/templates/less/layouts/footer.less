@@ -1,0 +1,43 @@
+.footer-wrap {
+  background: #2e3233;
+}
+
+.footer {
+  padding-top: 34px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1000px) {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  > .copyrights {
+    font-size: 18px;
+    color: #737e80;
+    font-family: @Futura;
+  }
+
+  >.middle {
+    .phone {
+      font-size: 18px;
+      color: white;
+      text-align: center;
+      font-family: @Futura;
+      margin-top: -30px;
+      font-weight: bold;
+    }
+  }
+
+  > .developer {
+    margin-top: 20px;
+
+    a {
+      background: url("../../img/bg-developer.png") no-repeat;
+      width: 256px;
+      height: 42px;
+      display: block;
+    }
+  }
+}

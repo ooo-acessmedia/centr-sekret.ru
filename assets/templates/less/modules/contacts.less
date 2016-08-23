@@ -1,0 +1,51 @@
+.contacts {
+  margin-top: 40px;
+  text-align: right;
+  font-family: @Futura;
+  font-size: 18px;
+  color: #404040;
+  font-weight: bold;
+
+  .item {
+    margin-bottom: 5px;
+
+    @media screen and (max-width: 450px) {
+      margin-bottom: 10px;
+    }
+
+    span {
+      padding-right: 40px;
+    }
+
+    a {
+      color: #404040;
+      display: block;
+      padding-right: 40px;
+    }
+
+    &.item-address {
+      background: url("../../img/i-contacts-address.png") no-repeat right center;
+    }
+
+    &.item-phone {
+      background: url("../../img/i-contacts-phone.png") no-repeat right center;
+    }
+
+    &.item-email {
+      background: url("../../img/i-contacts-email.png") no-repeat right 4px center;
+    }
+
+    &.item-vk {
+      background: url("../../img/i-contacts-vk.png") no-repeat right 1px center;
+    }
+
+    &.item-instagram {
+      background: url("../../img/i-contacts-instagram.png") no-repeat right 3px center;
+    }
+
+    &.item-odnoclass {
+      background: url("../../img/i-contacts-odnoclass.png") no-repeat right 3px center;
+    }
+
+  }
+}

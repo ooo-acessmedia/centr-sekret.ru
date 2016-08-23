@@ -1,0 +1,195 @@
+.courses-item {
+  width: 350px;
+  border: 1px solid white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  background: #000;
+
+  img {
+    border-radius: 10px;
+    opacity: 0.6;
+  }
+
+  .item-date {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #c2f200;
+    text-align: center;
+    padding: 8px 20px;
+    border-top-left-radius: 10px;
+    color: #3d4c00;
+    font-family: @Futura;
+
+
+    > div:first-child {
+      font-size: 27px;
+    }
+  }
+
+  .item-long {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    font-family: @PtBold;
+    top: 65px;
+    left: 135px;
+
+    &:before {
+      position: absolute;
+      left: -50px;
+      top: -5px;
+      content: '';
+      background: url("../../img/i-courses-long-clock.png") no-repeat;
+      width: 43px;
+      height: 45px;
+    }
+  }
+  
+  .item-for {
+    color: #c2f200;
+    font-size: 18px;
+    font-family: @PtRegular;
+    text-transform: uppercase;
+    position: absolute;
+    top: 90px;
+    left: 135px;
+  }
+
+  .item-title {
+    position: absolute;
+    font-family: @Futura;
+    font-size: 28px;
+    color: white;
+    top: 130px;
+    left: 0;
+    width: 350px;
+    text-align: center;
+  }
+
+  .item-more {
+    font-family: @Futura;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 175px;
+    left: 75px;
+    background: url("../../img/bg-courses-more.png") no-repeat;
+    width: 193px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  &.id-252 {
+    .item-more {
+      top: 205px;
+    }
+  }
+}
+
+.courses-not-item {
+  width: 200px;
+  margin-bottom: 5px;
+  border: 1px solid #aeacac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60px;
+  font-weight: bold;
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.partners-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.partners-item {
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+
+  > .image {
+    margin-bottom: 15px;
+
+    img {
+      width: 112px;
+      height: 112px;
+    }
+  }
+}
+
+.specialist-image {
+  width: 250px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.not-courses-head-title, .specialists-head-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.special-output {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  .courses-item {
+    width: 100%;
+    background: grey;
+    position: relative;
+
+    .courses-dates {
+      position: absolute;
+      right: 0;
+      top: 5px;
+      color: white;
+      width: 350px;
+      font-size: 15px;
+      padding-left: 20px;
+
+      >.title {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+
+
+
+  .specialist-item {
+    width: 100%;
+
+    a {
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+
+      >.image {
+        margin-right: 30px;
+      }
+
+      > .block {
+        margin-top: 20px;
+        flex-grow: 1;
+      }
+    }
+  }
+}
+
+.seminar-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}

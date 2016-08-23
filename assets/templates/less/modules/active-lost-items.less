@@ -1,0 +1,34 @@
+.active-wrap {
+  .active-items {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+}
+
+.lost-wrap {
+  .lost-items {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+}
+
+.title-block {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+  > div {
+    cursor: pointer;
+
+    &.active {
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .title-active {
+    margin-right: 20px;
+  }
+}

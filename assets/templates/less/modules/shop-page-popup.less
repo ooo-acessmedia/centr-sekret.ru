@@ -1,0 +1,71 @@
+@shopPopupBg: #66A1AD;
+@shopPopupColor: white;
+@shopPopupTop: 150px;
+@shopFadeBg: rgba(235, 235, 235, 0.8);
+
+.shop-page-popup-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  justify-content: center;
+  align-items: flex-start;
+  display: none;
+}
+
+.shop-page-popup {
+  display: none;
+  z-index: 9999;
+  background: @shopPopupBg;
+  padding: 25px;
+  color: @shopPopupColor;
+  margin-top: @shopPopupTop;
+  opacity: 0;
+
+  .shop-page-popup-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .shop-page-popup-buttons {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      padding: 10px;
+      border: 2px solid @shopPopupColor;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-align: center;
+
+      a {
+        color: @shopPopupColor;
+        text-decoration: none;
+      }
+
+      &:hover {
+        background: @shopPopupColor;
+        color: @shopPopupBg;
+
+        a {
+          color: @shopPopupBg;
+
+        }
+      }
+    }
+  }
+}
+
+.shop-page-fade {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: @shopFadeBg;
+  z-index: 999;
+}
