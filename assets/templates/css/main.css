@@ -3079,10 +3079,12 @@ p span {
           flex-flow: column wrap;
   margin-right: 20px;
 }
-.courses-pages {
+.courses-pages,
+.not-courses-pages {
   font-family: 'PTSans-Regular', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
-.courses-pages h1.title {
+.courses-pages h1.title,
+.not-courses-pages h1.title {
   font-size: 28px;
   color: white;
   background: url("../img/couses-pages-title-bg.png") no-repeat;
@@ -3095,7 +3097,8 @@ p span {
   margin-bottom: 0;
   font-family: 'PTSans-Regular', Arial, Helvetica Neue, Helvetica, sans-serif;
 }
-.courses-pages .courses-headblock {
+.courses-pages .courses-headblock,
+.not-courses-pages .courses-headblock {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -3108,28 +3111,34 @@ p span {
   margin-top: -20px;
   padding-bottom: 40px;
 }
-.courses-pages .courses-headblock > .left {
+.courses-pages .courses-headblock > .left,
+.not-courses-pages .courses-headblock > .left {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   width: 345px;
 }
-.courses-pages .courses-headblock > .left .price {
+.courses-pages .courses-headblock > .left .price,
+.not-courses-pages .courses-headblock > .left .price {
   font-size: 20px;
   color: #4b7780;
   padding-top: 15px;
 }
-.courses-pages .courses-headblock > .left .program {
+.courses-pages .courses-headblock > .left .program,
+.not-courses-pages .courses-headblock > .left .program {
   font-size: 16px;
   color: #333333;
 }
 .courses-pages .courses-headblock > .left .program ol,
-.courses-pages .courses-headblock > .left .program ul {
+.not-courses-pages .courses-headblock > .left .program ol,
+.courses-pages .courses-headblock > .left .program ul,
+.not-courses-pages .courses-headblock > .left .program ul {
   margin-top: 35px;
   padding: 0;
   list-style-position: inside;
 }
-.courses-pages .courses-headblock > .right {
+.courses-pages .courses-headblock > .right,
+.not-courses-pages .courses-headblock > .right {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -3138,12 +3147,14 @@ p span {
           flex-shrink: 0;
   width: 310px;
 }
-.courses-pages .courses-headblock > .right .title {
+.courses-pages .courses-headblock > .right .title,
+.not-courses-pages .courses-headblock > .right .title {
   font-size: 20px;
   color: #4b7780;
   text-align: center;
 }
-.courses-pages .courses-headblock > .right .content {
+.courses-pages .courses-headblock > .right .content,
+.not-courses-pages .courses-headblock > .right .content {
   padding-top: 25px;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3153,10 +3164,12 @@ p span {
           justify-content: center;
   position: relative;
 }
-.courses-pages .courses-headblock > .right .content .sertificates-block {
+.courses-pages .courses-headblock > .right .content .sertificates-block,
+.not-courses-pages .courses-headblock > .right .content .sertificates-block {
   width: 250px;
 }
-.courses-pages .courses-headblock > .right .content .sertificates-block .owl-prev {
+.courses-pages .courses-headblock > .right .content .sertificates-block .owl-prev,
+.not-courses-pages .courses-headblock > .right .content .sertificates-block .owl-prev {
   position: absolute;
   left: -30px;
   top: 170px;
@@ -3164,7 +3177,8 @@ p span {
   height: 22px;
   background: url("../img/sertificates-block-left-bg.png") no-repeat;
 }
-.courses-pages .courses-headblock > .right .content .sertificates-block .owl-next {
+.courses-pages .courses-headblock > .right .content .sertificates-block .owl-next,
+.not-courses-pages .courses-headblock > .right .content .sertificates-block .owl-next {
   position: absolute;
   right: -30px;
   top: 170px;
@@ -3172,12 +3186,14 @@ p span {
   height: 22px;
   background: url("../img/sertificates-block-right-bg.png") no-repeat;
 }
-.courses-pages .courses-schedule > .title {
+.courses-pages .courses-schedule > .title,
+.not-courses-pages .courses-schedule > .title {
   font-size: 22px;
   color: #333333;
   margin-bottom: 10px;
 }
-.courses-pages .courses-schedule > .content {
+.courses-pages .courses-schedule > .content,
+.not-courses-pages .courses-schedule > .content {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -3193,7 +3209,8 @@ p span {
   background-size: 100% 100%;
   border: 1px solid #95b427;
 }
-.courses-pages .courses-schedule > .content > p {
+.courses-pages .courses-schedule > .content > p,
+.not-courses-pages .courses-schedule > .content > p {
   width: 50%;
   margin-bottom: 15px;
   font-size: 16px;
@@ -3208,6 +3225,19 @@ p span {
   font-size: 18px;
   color: #404040;
   font-weight: bold;
+}
+.contacts .simple-icons {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 70px;
+}
+.contacts .simple-icons a {
+  width: 100%;
+  height: 100%;
 }
 .contacts .item {
   margin-bottom: 5px;
@@ -3235,13 +3265,19 @@ p span {
   background: url("../img/i-contacts-email.png") no-repeat right 4px center;
 }
 .contacts .item.item-vk {
-  background: url("../img/i-contacts-vk.png") no-repeat right 1px center;
+  width: 40px;
+  height: 40px;
+  background: url("../img/i-contacts-vk.png") no-repeat;
+  background-size: 100% 100%;
 }
 .contacts .item.item-instagram {
   background: url("../img/i-contacts-instagram.png") no-repeat right 3px center;
 }
 .contacts .item.item-odnoclass {
-  background: url("../img/i-contacts-odnoclass.png") no-repeat right 3px center;
+  width: 40px;
+  height: 40px;
+  background: url("../img/i-contacts-odnoclass.png") no-repeat;
+  background-size: 100% 100%;
 }
 .subscribe-button {
   font-family: 'FuturaLightLight-Regular', Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -4251,7 +4287,8 @@ p span {
 .specialist-sert-item {
   margin-bottom: 20px;
 }
-.courses-pages .specialists-block {
+.courses-pages .specialists-block,
+.not-courses-pages .specialists-block {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -4262,24 +4299,29 @@ p span {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
 }
-.courses-pages .specialist-item {
+.courses-pages .specialist-item,
+.not-courses-pages .specialist-item {
   width: 45%;
   text-align: left;
 }
-.courses-pages .specialist-item > a {
+.courses-pages .specialist-item > a,
+.not-courses-pages .specialist-item > a {
   padding: 20px;
   background: #737e80;
 }
-.courses-pages .specialist-item .image {
+.courses-pages .specialist-item .image,
+.not-courses-pages .specialist-item .image {
   margin-bottom: 10px;
 }
-.courses-pages .specialist-item .title {
+.courses-pages .specialist-item .title,
+.not-courses-pages .specialist-item .title {
   font-size: 22px;
   color: white;
   line-height: 20px;
   height: auto;
 }
-.courses-pages .specialist-item .description {
+.courses-pages .specialist-item .description,
+.not-courses-pages .specialist-item .description {
   font-size: 18px;
   color: white;
   line-height: 35px;

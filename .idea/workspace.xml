@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a590bead-3790-4724-8538-11011836ca6d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/img/i-contacts-odnoclass.png" afterPath="$PROJECT_DIR$/assets/templates/img/i-contacts-odnoclass.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/img/i-contacts-vk.png" afterPath="$PROJECT_DIR$/assets/templates/img/i-contacts-vk.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/css/main.css" afterPath="$PROJECT_DIR$/assets/templates/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/base/base.less" afterPath="$PROJECT_DIR$/assets/templates/less/base/base.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/layouts/courses-page.less" afterPath="$PROJECT_DIR$/assets/templates/less/layouts/courses-page.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/layouts/header.less" afterPath="$PROJECT_DIR$/assets/templates/less/layouts/header.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/layouts/sec-content.less" afterPath="$PROJECT_DIR$/assets/templates/less/layouts/sec-content.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/modules/breadcrumb.less" afterPath="$PROJECT_DIR$/assets/templates/less/modules/breadcrumb.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/modules/courses-item.less" afterPath="$PROJECT_DIR$/assets/templates/less/modules/courses-item.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/modules/left-menu.less" afterPath="$PROJECT_DIR$/assets/templates/less/modules/left-menu.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/modules/contacts.less" afterPath="$PROJECT_DIR$/assets/templates/less/modules/contacts.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less" afterPath="$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less" />
     </list>
     <ignored path="centr-sekret.ru.iws" />
@@ -33,30 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="massages-block.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/massages-block.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left-menu.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/left-menu.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="courses-item.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/courses-item.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="2772">
               <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
               <folding />
             </state>
@@ -66,7 +43,7 @@
       <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/templates/less/base/base.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="546">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
               <folding />
             </state>
@@ -83,21 +60,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="courses-page.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="courses-page.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/templates/less/layouts/courses-page.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1239">
-              <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+            <state relative-caret-position="21">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="specialist-item.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contacts.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/contacts.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="specialist-item.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+            <state relative-caret-position="198">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -116,7 +103,7 @@
       <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/templates/less/layouts/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="441">
               <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
@@ -163,7 +150,6 @@
         <option value="$PROJECT_DIR$/assets/templates/less/modules/main-slider.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/product-item.less" />
         <option value="$PROJECT_DIR$/robots.txt" />
-        <option value="$PROJECT_DIR$/assets/templates/less/modules/contacts.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/work-time.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/form-popup.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/requisit-block.less" />
@@ -179,13 +165,14 @@
         <option value="$PROJECT_DIR$/assets/templates/less/main.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/massages-block.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/left-menu.less" />
-        <option value="$PROJECT_DIR$/assets/templates/less/layouts/courses-page.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/courses-item.less" />
-        <option value="$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/modules/breadcrumb.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/base/base.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/layouts/header.less" />
         <option value="$PROJECT_DIR$/assets/templates/less/layouts/sec-content.less" />
+        <option value="$PROJECT_DIR$/assets/templates/less/modules/contacts.less" />
+        <option value="$PROJECT_DIR$/assets/templates/less/layouts/courses-page.less" />
+        <option value="$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less" />
       </list>
     </option>
   </component>
@@ -289,14 +276,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -316,29 +295,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centr-sekret.ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="centr-sekret.ru" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -373,18 +330,18 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weddingdress63" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../byshen.ru" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru\assets\templates\img" />
       <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru\images\partners" />
       <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru\images\master-class\second-yoga-day" />
       <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru\images\specialists" />
       <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru\images\vipusk" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\WORK\Work - projects\AcessMedia\centr-sekret.ru" />
     </key>
   </component>
   <component name="RunManager">
@@ -440,23 +397,24 @@
       <workItem from="1471965334192" duration="460000" />
       <workItem from="1471997767663" duration="2792000" />
       <workItem from="1472556625035" duration="6267000" />
+      <workItem from="1472642743149" duration="2353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18147000" />
+    <option name="totallyTimeSpent" value="20500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1555794" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14055794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15128756" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29804373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32220945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29770115" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3218391" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,13 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/license-block.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/img/i-courses-long-clock.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -645,13 +596,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/contacts.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/product-item.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -729,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="152" column="5" selection-start-line="152" selection-start-column="5" selection-end-line="152" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -775,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/left-menu.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="546">
           <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
@@ -791,16 +731,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/courses-item.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
+        <state relative-caret-position="2772">
           <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -815,7 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/less/base/base.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
+        <state relative-caret-position="546">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
@@ -823,8 +755,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/less/layouts/header.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
+        <state relative-caret-position="441">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/img/i-contacts-odnoclass.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/contacts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -839,8 +784,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/templates/less/layouts/courses-page.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        <state relative-caret-position="21">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/templates/less/modules/specialist-item.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding />
         </state>
       </provider>
