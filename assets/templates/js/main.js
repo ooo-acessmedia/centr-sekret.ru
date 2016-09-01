@@ -10,7 +10,8 @@
         items: 1,
         nav: true,
         navText: ['', ''],
-        loop: false
+        loop: true,
+        autoplay: true
     });
 
     // Слайдер сертификатов
