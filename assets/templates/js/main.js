@@ -153,4 +153,14 @@
         $('.courses-headblock .right').addClass('is-hidden');
     }
 
+    // Скрываем пустые ссылки в главном слайдере
+
+    var $emptyLinks = $('.main-slider-item');
+
+    $emptyLinks.each(function () {
+        if ($(this).find('a').attr('href') === '') {
+            $(this).find('.link-more').addClass('is-hidden');
+        }
+    });
+
 })(jQuery);
