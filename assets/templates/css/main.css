@@ -4262,6 +4262,8 @@ h1.title {
 }
 .news-item {
   font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 30px;
 }
 .action-item {
   font-weight: bold;
